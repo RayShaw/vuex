@@ -38,7 +38,7 @@ new Vue({
   el: "#app",
   router: router,
   store: store,
-  redner: h => {
+  render: h => {
     return h(App);
   }
 });
